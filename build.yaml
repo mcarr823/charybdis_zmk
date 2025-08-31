@@ -55,7 +55,7 @@ include:
     keymap: qwerty
     format: dongle
     artifact-name: charybdis_qwerty_dongle_right
-  - board: nice_nano_v2
+  - board: rpi_pico
     shield: charybdis_dongle
     keymap: qwerty
     format: dongle
