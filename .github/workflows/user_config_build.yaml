@@ -280,12 +280,12 @@ jobs:
           name: firmware-reset-nanov2
           delete-merged: true
 
-      - name: Upload Firmware Reset (Rpi Pico)
+      - name: Upload Firmware Reset (Xiao)
         continue-on-error: true
         uses: actions/upload-artifact/merge@v4
         with:
-          pattern: artifact-firmware_reset_rpi_pico
-          name: firmware-reset-rpipico
+          pattern: artifact-firmware_reset_seeeduino_xiao_ble
+          name: firmware_reset_seeeduino_xiaoble
           delete-merged: true
 
       - name: Delete keymap artifacts
