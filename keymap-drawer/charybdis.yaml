@@ -32,10 +32,10 @@ layers:
   - .
   - /
   - Media
-  - Navigation
-  - {t: ENTER, h: Number}
+  - {t: ENTER, h: Navigation}
+  - Number
+  - Scroll
   - SPACE
-  - BACK SPACE
   Navigation:
   - ''
   - ''
@@ -178,5 +178,5 @@ layers:
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
