@@ -1,5 +1,9 @@
 #include "charybdis.dtsi"
 
+&kscan0 {
+    col-gpios = <0>;
+};
+
 / {
     chosen {
         zmk,kscan = &mock_kscan;
@@ -11,7 +15,6 @@
         columns = <0>;
         rows = <0>;
         events = <0>;
-        col-gpios = <0>;
     };
 };
 
