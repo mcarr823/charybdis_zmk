@@ -1,7 +1,7 @@
 #include "charybdis.dtsi"
 
 &kscan0 {
-    col-gpios = <&gpio0>;
+    col-gpios = <&gpio0  0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 };
 
 / {
