@@ -85,6 +85,16 @@
 
     combos {
         compatible = "zmk,combos";
+
+        left_bootloader {
+            bindings = <&bootloader>;
+            key-positions = <0 20>;
+        };
+
+        right_bootloader {
+            bindings = <&bootloader>;
+            key-positions = <9 29>;
+        };
     };
 
     behaviors {

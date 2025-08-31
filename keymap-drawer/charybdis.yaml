@@ -180,3 +180,8 @@ layers:
   - '&mkp MB2'
   - {type: held}
   - {t: ▽, type: trans}
+combos:
+- p: [0, 20]
+  k: BOOT LDR
+- p: [9, 29]
+  k: BOOT LDR
