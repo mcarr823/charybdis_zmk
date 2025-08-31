@@ -248,13 +248,13 @@ jobs:
           name: firmware-charybdis-qwerty
           delete-merged: true
 
-      # - name: Upload Charybdis ZMK Firmware (QWERTY Dongle)
-      #   continue-on-error: true
-      #   uses: actions/upload-artifact/merge@v4
-      #   with:
-      #     pattern: artifact-charybdis_qwerty_dongle*
-      #     name: firmware-charybdis-qwerty-dongle
-      #     delete-merged: true
+      - name: Upload Charybdis ZMK Firmware (QWERTY Dongle)
+        continue-on-error: true
+        uses: actions/upload-artifact/merge@v4
+        with:
+          pattern: artifact-charybdis_qwerty_dongle*
+          name: firmware-charybdis-qwerty-dongle
+          delete-merged: true
 
       # - name: Upload Charybdis ZMK Firmware (Colemak BT)
       #   continue-on-error: true
@@ -278,6 +278,14 @@ jobs:
         with:
           pattern: artifact-firmware_reset_nano_v2
           name: firmware-reset-nanov2
+          delete-merged: true
+
+      - name: Upload Firmware Reset (Rpi Pico)
+        continue-on-error: true
+        uses: actions/upload-artifact/merge@v4
+        with:
+          pattern: artifact-firmware_reset_rpi_pico
+          name: firmware-reset-rpipico
           delete-merged: true
 
       - name: Delete keymap artifacts
