@@ -136,7 +136,7 @@
   &kp Q  &kp W        &kp E          &kp R         &kp T              &kp Y        &kp U          &kp I         &kp O        &kp P
   &kp A  &hml LALT S  &hml LSHIFT D  &hml LCTRL F  &hml LGUI G    &hmr RGUI H  &hmr RCTRL J   &hmr RSHIFT K  &hmr RALT L  &kp APOSTROPHE
   &kp Z  &kp X        &kp C          &kp V         &kp B              &kp N        &kp M          &kp COMMA     &kp DOT      &kp SLASH
-                        &mo 3          &lt 1 ENTER         &mo 2        &mo 4    &kp SPACE
+                        &mo 3          &lt 1 ENTER         &mo 2        &mo 5    &lt 4 SPACE
 
             >;
         };
@@ -154,9 +154,9 @@
         Number {
             label = "Number";
             bindings = <
-  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                       &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
-  &none  &kp GRAVE  &kp MINUS  &kp EQUAL  &none    &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp SEMICOLON
-  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)   &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
+  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+  &none  &none    &none    &none     &none    &none  &none    &none    &none     &none
                               &trans        &trans        &trans    &trans        &trans
             >;
         };
@@ -164,7 +164,7 @@
         Media {
             label = "Media";
             bindings = <
-  &kp F1  &kp F2                 &kp F3                 &kp F4                 &kp F5    &kp F6          &kp F7        &kp F8        &kp F9        &kp F10
+  &none  &none    &none    &none     &none    &none  &none    &none    &none     &none
   &none   &kp LS(LA(LC(LEFT)))   &kp LA(LC(LS(ENTER)))  &kp LS(LA(LC(RIGHT)))  &none     &none           &kp LS(LA(LC(MINUS)))  &kp LS(LA(LC(SPACE)))  &kp LA(LC(LS(EQUAL)))      &none
   &none   &none  &none  &none  &none     &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 4
                                  &trans                 &trans                 &trans    &trans          &trans
@@ -180,6 +180,17 @@
             >;
 
             label = "Scroll";
+        };
+
+        Symbol {
+            bindings = <
+  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)   &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+  &none  &kp GRAVE  &kp MINUS  &kp EQUAL  &none    &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp SEMICOLON
+  &none  &none    &none    &none     &none    &none  &none    &none    &none     &none
+                              &trans        &trans        &trans    &trans        &trans
+            >;
+
+            label = "Symbol";
         };
 
     };

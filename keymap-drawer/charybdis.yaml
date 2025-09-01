@@ -34,8 +34,8 @@ layers:
   - Media
   - {t: ENTER, h: Navigation}
   - Number
-  - Scroll
-  - SPACE
+  - Symbol
+  - {t: SPACE, h: Scroll}
   Navigation:
   - ''
   - ''
@@ -45,7 +45,7 @@ layers:
   - ''
   - ''
   - UP ARROW
-  - ''
+  - BACK SPACE
   - DELETE
   - ''
   - HOME
@@ -83,32 +83,6 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
-  - '`'
-  - '-'
-  - '='
-  - ''
-  - ''
-  - '['
-  - ']'
-  - \
-  - ;
-  - Sft+ 1
-  - Sft+ 2
-  - Sft+ 3
-  - Sft+ 4
-  - Sft+ 5
-  - Sft+ 6
-  - Sft+ 7
-  - Sft+ 8
-  - Sft+ 9
-  - Sft+ 0
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Media:
   - F1
   - F2
   - F3
@@ -119,6 +93,32 @@ layers:
   - F8
   - F9
   - F10
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - Meh+ LEFT
   - Meh+ ENTER
@@ -178,6 +178,42 @@ layers:
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {type: held}
+  Symbol:
+  - Sft+ 1
+  - Sft+ 2
+  - Sft+ 3
+  - Sft+ 4
+  - Sft+ 5
+  - Sft+ 6
+  - Sft+ 7
+  - Sft+ 8
+  - Sft+ 9
+  - Sft+ 0
+  - ''
+  - '`'
+  - '-'
+  - '='
+  - ''
+  - ''
+  - '['
+  - ']'
+  - \
+  - ;
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
 combos:
