@@ -144,7 +144,7 @@
         Navigation {
             label = "Navigation";
             bindings = <
-  &none  &none       &kp PAGE_UP    &none    &none    &none              &none     &kp UP_ARROW      &none              &kp DELETE
+  &none  &none       &kp PAGE_UP    &none    &none    &none              &none     &kp UP_ARROW      &kp BACKSPACE      &kp DELETE
   &none  &kp HOME    &kp PAGE_DOWN  &kp END  &none    &kp RC(PAGE_UP)    &kp LEFT  &kp DOWN          &kp RIGHT          &none
   &none  &kp ESCAPE  &none          &kp TAB  &none    &kp RC(PAGE_DOWN)  &none     &kp RA(RC(LEFT))  &kp RA(RC(RIGHT))  &none
                         &trans         &trans   &trans     &trans     &trans
