@@ -22,20 +22,20 @@ layers:
   - {t: L, h: RALT}
   - ''''
   - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
+  - {t: X, h: Symbol}
+  - {t: C, h: Number}
+  - {t: V, h: Navigation}
+  - {t: B, h: Media}
+  - {t: N, h: Media}
+  - {t: M, h: Navigation}
+  - {t: ',', h: Number}
+  - {t: ., h: Symbol}
   - /
-  - Media
-  - {t: ENTER, h: Navigation}
-  - Number
-  - Symbol
-  - {t: SPACE, h: Scroll}
+  - '&mkp MB2'
+  - ENTER
+  - '&mkp MB1'
+  - BACK SPACE
+  - SPACE
   Navigation:
   - ''
   - ''
@@ -60,7 +60,7 @@ layers:
   - ''
   - ESCAPE
   - ''
-  - TAB
+  - {t: TAB, type: held}
   - ''
   - Ctl+ PAGE DOWN
   - ''
@@ -68,7 +68,7 @@ layers:
   - AGr+Ctl+ RIGHT
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -95,17 +95,53 @@ layers:
   - F10
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Symbol:
+  - Sft+ 1
+  - Sft+ 2
+  - Sft+ 3
+  - Sft+ 4
+  - Sft+ 5
+  - Sft+ 6
+  - Sft+ 7
+  - Sft+ 8
+  - Sft+ 9
+  - Sft+ 0
+  - ''
+  - '`'
+  - '-'
+  - '='
+  - ''
+  - ''
+  - Sft+ [
+  - Sft+ ]
+  - Sft+ \
+  - Sft+ ;
+  - ''
+  - {t: Sft+ `, type: held}
+  - Sft+ -
+  - Sft+ =
+  - ''
+  - ''
+  - '['
+  - ']'
+  - \
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Media:
@@ -133,88 +169,16 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - BT CLR ALL
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '4'}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Scroll:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - {t: ▽, type: trans}
-  - {type: held}
-  Symbol:
-  - Sft+ 1
-  - Sft+ 2
-  - Sft+ 3
-  - Sft+ 4
-  - Sft+ 5
-  - Sft+ 6
-  - Sft+ 7
-  - Sft+ 8
-  - Sft+ 9
-  - Sft+ 0
-  - ''
-  - '`'
-  - '-'
-  - '='
-  - ''
-  - ''
-  - Sft+ [
-  - Sft+ ]
-  - Sft+ \
-  - Sft+ ;
-  - ''
-  - Sft+ `
-  - Sft+ -
-  - Sft+ =
-  - ''
-  - ''
-  - '['
-  - ']'
-  - \
-  - ;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 20]
