@@ -175,9 +175,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
   - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {type: held}
   Symbol:
@@ -197,20 +197,20 @@ layers:
   - '='
   - ''
   - ''
+  - Sft+ [
+  - Sft+ ]
+  - Sft+ \
+  - Sft+ ;
+  - ''
+  - Sft+ `
+  - Sft+ -
+  - Sft+ =
+  - ''
+  - ''
   - '['
   - ']'
   - \
   - ;
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
