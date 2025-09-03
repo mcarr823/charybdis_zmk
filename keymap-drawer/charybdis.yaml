@@ -22,20 +22,20 @@ layers:
   - {t: L, h: RALT}
   - ''''
   - Z
-  - {t: X, h: Symbol}
-  - {t: C, h: Number}
-  - {t: V, h: Navigation}
-  - {t: B, h: Media}
-  - {t: N, h: Media}
-  - {t: M, h: Navigation}
-  - {t: ',', h: Number}
-  - {t: ., h: Symbol}
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
   - /
-  - '&mkp MB2'
-  - ENTER
-  - '&mkp MB1'
+  - Media
+  - {t: ENTER, h: Navigation}
+  - Number
   - BACK SPACE
-  - SPACE
+  - {t: SPACE, h: Symbol}
   Navigation:
   - ''
   - ''
@@ -60,7 +60,7 @@ layers:
   - ''
   - ESCAPE
   - ''
-  - {t: TAB, type: held}
+  - TAB
   - ''
   - Ctl+ PAGE DOWN
   - ''
@@ -68,7 +68,7 @@ layers:
   - AGr+Ctl+ RIGHT
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -95,17 +95,17 @@ layers:
   - F10
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbol:
@@ -130,7 +130,7 @@ layers:
   - Sft+ \
   - Sft+ ;
   - ''
-  - {t: Sft+ `, type: held}
+  - Sft+ `
   - Sft+ -
   - Sft+ =
   - ''
@@ -143,7 +143,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   Media:
   - ''
   - ''
@@ -169,15 +169,51 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - BT CLR ALL
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '4'}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Scroll:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
