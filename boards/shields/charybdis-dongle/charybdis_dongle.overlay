@@ -1,5 +1,4 @@
 #include "charybdis.dtsi"
-#include "charybdis_pmw3610.dtsi"
 
 &kscan0 {
     col-gpios = <&gpio0  0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
@@ -38,12 +37,4 @@
         inversion-on;
         prechargep = <0x22>;
     };
-};
-
-// https://github.com/badjeff/zmk-pmw3610-driver
-/ {
-  trackball_listener {
-    compatible = "zmk,input-listener";
-    device = <&trackball>;
-  };
 };
